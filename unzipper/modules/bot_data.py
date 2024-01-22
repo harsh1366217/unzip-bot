@@ -101,7 +101,7 @@ This may take a while, go grab a coffee ☕️
 {}
 {}
 
-**Powered by @EDM115bots**
+**Powered by @NITRO_LEECHERS**
     """
 
     PROCESSING = "**Processing…**"
@@ -158,7 +158,7 @@ Select the extraction mode for that merged file 👀
     EXT_CAPTION = """
 `{}`
 
-Successfully extracted by @unzip_edm115bot 🥰
+Successfully extracted by @NITRO_UNZIP_BOT 🥰
     """
 
     REPORT_TEXT = """
@@ -191,7 +191,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you can't send any other task 🙂🔫
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @NITRO_LEECHERS if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` file(s) have been extracted from that archive"
@@ -234,7 +234,7 @@ Hi **{}** 👋, I'm **Unarchiver bot** 🥰
 I can extract any archive, with password or not, splitted, …
 Send **/commands** to learn more
 
-**Made with ❤️ by @EDM115bots**
+**Made with ❤️ by @NITRO_LEECHERS**
 **/donate** if you can 🥺
     """
 
@@ -256,12 +256,12 @@ Send **/commands** to learn more
 
 
 **• Got an error ?**
-    Visit edm115.dev/unzip#help
+    Visit @NITRO_LEECHERS#help
 
 
 **• I wanna have help 🥺**
 
-    PM me at **@EDM115** or join the chat **@EDM115_chat**
+    PM me at **@NITRO_LEECHERS** or join the chat **@NITRO_LEECHERS**
     """
 
     ABOUT_TXT = """
@@ -269,11 +269,10 @@ Send **/commands** to learn more
 
 • **Language :** [Python 3.12.1](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot)
-• **Developer :** [EDM115](https://github.com/EDM115)
+• **Developer :** [@NITRO_LEECHERS](https://t.me/NITRO_LEECHERS)
 
 **[Rate me ⭐](https://t.me/BotsArchive/2705)**
-Made with ❤️ by **@EDM115bots**
+Made with ❤️ by **@NITRO_LEECHERS**
     """
 
     DONATE_TEXT = """
@@ -287,11 +286,7 @@ So if you can, donate :)
 It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 
 --How ?--
-• **[Paypal](https://www.paypal.me/8EDM115)**
-• **[GitHub Sponsors](https://github.com/sponsors/EDM115)**
-• **[Directly in Telegram](https://t.me/EDM115bots/544)**
-• **[BuyMeACoffee](https://www.buymeacoffee.com/edm115)**
-• **[Send cryptos (not recommended)](https://edm115.shadd.eu.org/)**
+• **[Directly in Telegram](https://t.me/NITRO_LEECHERS)**
 
 Thanks for your contribution 😊
 
@@ -321,7 +316,7 @@ Here's how : Become a VIP user and benefit from extra perks !
 **How to become a VIP ?**
 1) Send **/pay** to the bot
 2) Choose your subscription
-3) Send a screenshot of your payment to **@EDM115**
+3) Send a screenshot of your payment to **@NITRO_LEECHERS**
 4) Enjoy your VIP perks !
 
 **What happens when my subscription ends ?**
@@ -513,7 +508,7 @@ That's not an archive 💀
 
     DEF_NOT_AN_ARCHIVE = """
 This file is NOT an archive 😐
-If you believe it's an error, send the file to **@EDM115**
+If you believe it's an error, send the file to **@NITRO_LEECHERS**
     """
 
     PROCESSING2 = "`Processing… ⏳`"
@@ -541,7 +536,7 @@ Use the **/merge** command
     QUERY_PARSE_ERR = """
 Fatal query parsing error 💀
 
-Please contact @EDM115_chat with details and screenshots
+Please contact @NITRO_LEECHERS with details and screenshots
     """
 
     GIVE_NEW_NAME = """

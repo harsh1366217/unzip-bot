@@ -3,7 +3,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
 class Messages:
-
     # here
 
     HELP = "Help 📜"
@@ -881,14 +880,16 @@ class Buttons:
             [
                 InlineKeyboardButton(Messages.STATS_BTN, callback_data="statscallback"),
                 InlineKeyboardButton(Messages.DONATE, callback_data="donatecallback"),
-            ]
+            ],
         ]
     )
 
     REFRESH_BUTTON = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(Messages.REFRESH, callback_data="statscallback|refresh"),
+                InlineKeyboardButton(
+                    Messages.REFRESH, callback_data="statscallback|refresh"
+                ),
                 InlineKeyboardButton(Messages.BACK, callback_data="megoinhome"),
             ]
         ]
@@ -917,12 +918,8 @@ class Buttons:
     CHOOSE_E_F_M__BTNS = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(
-                    "🗂️", callback_data="merged|no_pass"
-                ),
-                InlineKeyboardButton(
-                    "🔐", callback_data="merged|with_pass"
-                ),
+                InlineKeyboardButton("🗂️", callback_data="merged|no_pass"),
+                InlineKeyboardButton("🔐", callback_data="merged|with_pass"),
             ],
             [InlineKeyboardButton("❌", callback_data="cancel_dis")],
         ]
@@ -936,9 +933,7 @@ class Buttons:
             ],
             [
                 InlineKeyboardButton("🖼️", callback_data="extract_file|url|thumb"),
-                InlineKeyboardButton(
-                    "✏", callback_data="extract_file|url|thumbrename"
-                ),
+                InlineKeyboardButton("✏", callback_data="extract_file|url|thumbrename"),
             ],
             [InlineKeyboardButton("❌", callback_data="cancel_dis")],
         ]
@@ -970,7 +965,7 @@ class Buttons:
         [
             [
                 InlineKeyboardButton(Messages.AS_DOC, callback_data="set_mode|doc"),
-                InlineKeyboardButton(Messages.AS_MEDIA, callback_data="set_mode|media")
+                InlineKeyboardButton(Messages.AS_MEDIA, callback_data="set_mode|media"),
             ],
         ]
     )
@@ -992,7 +987,9 @@ class Buttons:
         [
             [
                 InlineKeyboardButton(Messages.CHECK, callback_data="check_thumb"),
-                InlineKeyboardButton(Messages.REPLACE, callback_data="save_thumb|replace"),
+                InlineKeyboardButton(
+                    Messages.REPLACE, callback_data="save_thumb|replace"
+                ),
             ],
             [InlineKeyboardButton(Messages.CANCEL_IT, callback_data="nope_thumb")],
         ]
@@ -1001,7 +998,9 @@ class Buttons:
     THUMB_FINAL = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(Messages.REPLACE, callback_data="save_thumb|replace"),
+                InlineKeyboardButton(
+                    Messages.REPLACE, callback_data="save_thumb|replace"
+                ),
                 InlineKeyboardButton(Messages.CANCEL_IT, callback_data="nope_thumb"),
             ]
         ]
@@ -1030,7 +1029,7 @@ class Buttons:
         [
             [
                 InlineKeyboardButton(Messages.DELETE, callback_data="del_thumb"),
-                InlineKeyboardButton(Messages.CANCEL_IT, callback_data="nope_thumb")
+                InlineKeyboardButton(Messages.CANCEL_IT, callback_data="nope_thumb"),
             ],
         ]
     )
@@ -1038,8 +1037,10 @@ class Buttons:
     RATE_ME = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(Messages.RATE, url="https://t.me/BotsArchive/2705"),
-                InlineKeyboardButton(Messages.DONATE, callback_data="donatecallback")
+                InlineKeyboardButton(
+                    Messages.RATE, url="https://t.me/BotsArchive/2705"
+                ),
+                InlineKeyboardButton(Messages.DONATE, callback_data="donatecallback"),
             ],
         ]
     )

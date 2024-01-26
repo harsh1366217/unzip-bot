@@ -70,7 +70,7 @@ Don't go AFK next time 😉
     BANNED = """
 **Sorry you're banned 💀**
 
-Report this at @EDM115_chat if you think this is a mistake, I may unban you
+Report this at @PREMIUM_COURSES_43 if you think this is a mistake, I may unban you
     """
 
     NEW_USER_BAD = """
@@ -100,7 +100,7 @@ This may take a while, go grab a coffee ☕️
 {}
 {}
 
-**Powered by @NITRO_LEECHERS**
+**Powered by @PREMIUM_COURSES_43**
     """
 
     PROCESSING = "**Processing…**"
@@ -121,7 +121,7 @@ This may take a while, go grab a coffee ☕️
 
     LOG_CHECKED = "Log channel checked"
 
-    BOT_RUNNING = "Bot is running now ! Join @EDM115bots"
+    BOT_RUNNING = "Bot is running now ! Join @PREMIUM_COURSES_43"
 
     WRONG_LOG = """
 Error : the provided **LOGS_CHANNEL** (`{}`) is incorrect
@@ -157,7 +157,7 @@ Select the extraction mode for that merged file 👀
     EXT_CAPTION = """
 `{}`
 
-Successfully extracted by @NITRO_UNZIP_BOT 🥰
+Successfully extracted by @PREMIUM_COURSES_43 🥰
     """
 
     REPORT_TEXT = """
@@ -190,7 +190,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you can't send any other task 🙂🔫
 
-Please report this at @NITRO_LEECHERS if you think this is a serious error
+Please report this at @PREMIUM_COURSES_43 if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` file(s) have been extracted from that archive"
@@ -228,13 +228,12 @@ Use **/merge** to start one
     ACTUAL_THUMB = "Your actual thumbnail"
 
     START_TEXT = """
-Hi **{}** 👋, I'm **Unarchiver bot** 🥰
+Hi **{}** 👋, I'm **NITRO UNZIP BOT** 🥰
 
 I can extract any archive, with password or not, splitted, …
-Send **/commands** to learn more
+JOIN @PREMIUM_COURSES_43 TO USE ME ❤️❤️❤️
 
-**Made with ❤️ by @NITRO_LEECHERS**
-**/donate** if you can 🥺
+**Made with ❤️ by @PREMIUM_COURSES_43**
     """
 
     HELP_TXT = """
@@ -255,12 +254,12 @@ Send **/commands** to learn more
 
 
 **• Got an error ?**
-    Visit @NITRO_LEECHERS#help
+    Visit @NITRO_LEECHERS
 
 
 **• I wanna have help 🥺**
 
-    PM me at **@NITRO_LEECHERS** or join the chat **@NITRO_LEECHERS**
+    PM me at **@PREMIUM_COURSES_43** or join the chat **@PREMIUM_COURSES_43**
     """
 
     ABOUT_TXT = """
@@ -268,10 +267,9 @@ Send **/commands** to learn more
 
 • **Language :** [Python 3.12.1](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
-• **Developer :** [@NITRO_LEECHERS](https://t.me/NITRO_LEECHERS)
 
-**[Rate me ⭐](https://t.me/BotsArchive/2705)**
-Made with ❤️ by **@NITRO_LEECHERS**
+**[Rate me ⭐](https://t.me/PREMIUM_COURSES_43)**
+Made with ❤️ by **@PREMIUM_COURSES_43**
     """
 
     DONATE_TEXT = """
@@ -290,7 +288,7 @@ It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 Thanks for your contribution 😊
 
 --Side note :--
-Donation doesn't count as a VIP subscription. Check **/vip** for more info
+Donation doesn't count as a VIP subscription. FOLLOW @PREMIUM_COURSES_43
     """
 
     VIP_INFO = """
@@ -453,7 +451,7 @@ Do you really want to delete your thumbnail ?
 
 `{}`
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @PREMIUM_COURSES_43 if you think this is a serious error
     """
 
     CANCELLED_TXT = "**{} ✅**"
@@ -507,7 +505,7 @@ That's not an archive 💀
 
     DEF_NOT_AN_ARCHIVE = """
 This file is NOT an archive 😐
-If you believe it's an error, send the file to **@NITRO_LEECHERS**
+If you believe it's an error, send the file to **@PREMIUM_COURSES_43**
     """
 
     PROCESSING2 = "`Processing… ⏳`"
@@ -535,7 +533,7 @@ Use the **/merge** command
     QUERY_PARSE_ERR = """
 Fatal query parsing error 💀
 
-Please contact @NITRO_LEECHERS with details and screenshots
+Please contact @PREMIUM_COURSES_43 with details and screenshots
     """
 
     GIVE_NEW_NAME = """
@@ -553,7 +551,7 @@ Please send the new file name (**--INCLUDE THE FILE EXTENTION !--**)
     UPLOADED = """
 **Successfully uploaded ✅**
 
-**Join @EDM115bots ❤️**
+**Join @PREMIUM_COURSES_43❤️**
     """
 
     NO_FILE_LEFT = "There's no file left to upload"
@@ -670,7 +668,7 @@ If it fails again, it means that {} haven't started the bot yet (or deleted the 
     REPORT_DONE = """
 Report sucessfully sent ! An answer will arrive soon
 
-Note : if you need to reply to replies, always use that /report command (or join **@EDM115_chat**)
+Note : if you need to reply to replies, always use that /report command (or join **@PREMIUM_COURSES_43**)
     """
 
     BAN_ID = "Give an user id to ban 😈"
@@ -1038,9 +1036,9 @@ class Buttons:
         [
             [
                 InlineKeyboardButton(
-                    Messages.RATE, url="https://t.me/BotsArchive/2705"
+                    Messages.MAIN_CHANNEL, url="https://t.me/PREMIUM_COURSES_43"
                 ),
-                InlineKeyboardButton(Messages.DONATE, callback_data="donatecallback"),
+                InlineKeyboardButton(Messages.LEECH_GROUP, url="https://t.me/NITRO_LEECHERS"),
             ],
         ]
     )

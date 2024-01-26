@@ -1036,9 +1036,9 @@ class Buttons:
         [
             [
                 InlineKeyboardButton(
-                    Messages.MAIN_CHANNEL, url="https://t.me/PREMIUM_COURSES_43"
+                    Messages.RATE, url="https://t.me/PREMIUM_COURSES_43"
                 ),
-                InlineKeyboardButton(Messages.LEECH_GROUP, url="https://t.me/NITRO_LEECHERS"),
+                InlineKeyboardButton(Messages.DONATE, callback_data="donatecallback"),
             ],
         ]
     )

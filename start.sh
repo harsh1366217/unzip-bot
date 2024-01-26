@@ -3,7 +3,7 @@ echo "
 
 Copyright (c) 2022 - 2024 EDM115
 
---> Join @NITRO_LEECHERS on Telegram
---> Follow @NITRO_LEECHERS on TELEGRAM 
+--> Join @PREMIUM_COURSES_43 on Telegram
+--> Follow @PREMIUM_COURSES_43 on TELEGRAM 
 "
 python3 -m unzipper
